@@ -22,7 +22,6 @@ class ListLinks extends ListRecords
             CreateAction::make()
                 ->label('Добавить')
                 ->model(Link::class)
-
                 ->form([
                     TextInput::make('title')
                         ->label('Название')

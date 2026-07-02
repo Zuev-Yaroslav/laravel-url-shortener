@@ -3,4 +3,7 @@
 use App\Http\Controllers\LinkController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/', function () {
+    return redirect('/admin');
+});
 Route::get('/{ulid}', [LinkController::class, 'redirect']);
