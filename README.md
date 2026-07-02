@@ -23,6 +23,7 @@
     * базу данных {DB_DATABASE}
     * порт {DB_PORT}
 - Прописываем следующие команды
+``` bash
 composer update --no-scripts
 php artisan key:generate
 php artisan migrate
@@ -32,4 +33,4 @@ php artisan filament:assets
 npm run build
 ````
 
-Можно пользоваться
+Далее зайти на админ панель и зарегистрироваться
