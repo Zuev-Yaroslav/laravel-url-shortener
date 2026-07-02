@@ -3,9 +3,7 @@
 namespace App\Filament\Resources\Links\Tables;
 
 use App\Models\Link;
-use Filament\Actions\BulkActionGroup;
 use Filament\Actions\DeleteAction;
-use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
 use Filament\Actions\ViewAction;
 use Filament\Forms\Components\TextInput;
